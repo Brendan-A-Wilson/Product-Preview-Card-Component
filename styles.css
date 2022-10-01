@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+
+/*Main container styling*/
+
+#main-container {
+    background-color: white;
+    width: 327px;
+    height: auto;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 8px;
+}
+
+img {
+    width: 100%;
+}
