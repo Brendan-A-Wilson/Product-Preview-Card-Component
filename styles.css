@@ -73,14 +73,34 @@ img {
 .prices #new-price {
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 24.5px;
+    font-family: "Fraunces", "Times New Roman", "san-serif";
+    font-weight: 700;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 32px;
+    color: #3d8168;
 }
 
 .prices #old-price {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    margin-right: 0px;
+    margin-left: 19px;
+    font-family: "Montserrat", "Times New Roman", "san-serif";
+    font-weight: 500;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 23px;
+    text-decoration: line-through;
 }
 
 .button {
-    margin-left: 24px;
+    margin-left: 25px;
     margin-top: 20px;
+    width: 295px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #3d8168;
 }
