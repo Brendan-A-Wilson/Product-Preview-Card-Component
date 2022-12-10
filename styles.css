@@ -66,6 +66,8 @@ img {
     color: #6C7289;
 }
 
+/*Prices Styling*/
+
 .prices {
     display: flex;
 }
@@ -96,11 +98,26 @@ img {
     text-decoration: line-through;
 }
 
-.button {
+/*Button Styling*/
+
+.btn {
     margin-left: 25px;
     margin-top: 20px;
     width: 295px;
     height: 48px;
     border-radius: 8px;
     background-color: #3d8168;
+    font-family: "Montserrat", "Times New Roman", "san-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/*Cart Icon and text styling*/
+
+.bi {
+    margin-right: 11.61px;
+    font-size: 18px;
+    font-weight: 700;
 }
