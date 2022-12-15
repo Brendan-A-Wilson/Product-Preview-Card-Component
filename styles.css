@@ -1,12 +1,8 @@
-/*Body Styling*/
-
 /*Mobile Design*/
 
-
-
-
 body {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -124,7 +120,16 @@ body {
 
 .bi {
     margin-right: 11.61px;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#footer-challenge {
+    margin: 20px 120px 0px 120px;
+    font-family: "Montserrat", "Times New Roman", "san-serif";
+    text-align: center;
+    line-height: 17px;
+    color: #3d8168;
     font-weight: 700;
 }
 
@@ -225,5 +230,11 @@ body {
         font-weight: 700;
         font-size: 14px;
         line-height: 17px;
+    }
+
+    .bi {
+        margin-right: 11.61px;
+        font-size: 16px;
+        font-weight: 700;
     }
 }
